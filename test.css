@@ -1,0 +1,35 @@
+.hgroup {
+    display: flex;
+}
+
+.mylist2 {
+    margin-left: 180px;
+}
+
+ul {
+    list-style: none;
+    font-size: 25px;
+}
+
+li {
+    margin-top: 10px;
+
+}
+
+button {
+    padding: 20px;
+    background-color: tomato;
+    margin: 0px 20px;
+}
+
+@media screen and (max-width: 400px) {
+    ul {
+
+        font-size: 15px;
+    }
+
+    .mylist2 {
+        margin-left: 70px;
+    }
+
+}
